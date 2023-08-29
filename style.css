@@ -66,13 +66,16 @@
   background-color: #121212;
 }
 
-.swiper-slide.roll__slide img{
-  filter: grayscale(100%);
-
-}
-
 .hero__area-3 .hero3-img {
   position: absolute !important;
   bottom: 0;
   right: 0;
 }
+
+
+.swiper-slide.roll__slide img{
+  filter: grayscale(100%);
+
+}
+
+
