@@ -1,0 +1,72 @@
+.services_wwd.feature__list {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)) !important;
+  grid-auto-flow: column !important;
+  grid-auto-columns: minmax(300px, 1fr) !important;
+  overflow-x: scroll !important;
+  grid-gap: 5px !important;
+  position: relative;
+  height: 650;
+}
+
+.feature__item {
+  width: 300px !important;
+  position: relative;
+  padding: 0px 30px 145px !important;
+}
+
+.next-btn,
+.prev-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  filter: invert(1);
+  cursor: pointer;
+  z-index: 99;
+}
+
+.next-btn {
+  right: -85px;
+}
+
+
+.prev-btn {
+  left: -80px;
+  rotate: 180deg;
+  top: 45%;
+  transform: translateY(-50%);
+  display: none;
+}
+
+
+.services_wwd.feature__list::-webkit-scrollbar {
+    width: 0;  /* Webkit tabanlı tarayıcılarda (Chrome, Safari) yatay kaydırma çubuğunu gizler */
+    height: 0;  /* Webkit tabanlı tarayıcılarda (Chrome, Safari) dikey kaydırma çubuğunu gizler */
+}
+
+.services_wwd.feature__list {
+    -ms-overflow-style: none;  /* IE ve Edge'de kaydırma çubuklarını gizler */
+    scrollbar-width: none;  /* Modern Firefox sürümlerinde kaydırma çubuklarını gizler */
+}
+
+.feature__item_img{
+    position: absolute;
+    width: 250px;
+    bottom: 0;
+
+}
+
+.swiper-slide {
+    display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0px 70px;
+}
+
+.roll__area-3 {
+  background-color: #121212;
+}
+
+.swiper-slide.roll__slide img{
+  filter: grayscale(100%);
+
+}
